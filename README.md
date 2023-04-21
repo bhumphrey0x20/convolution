@@ -5,6 +5,8 @@ A while back I saw a job announcment for an embedded C engineer. They really wan
 
 The input data and the kernel are simple box functions. The input data array is prepadded and the same size as the output array also padded. To change the data or the kernel size or shape, you will need to manually do so in the .c file. 
 
+These files were written in C and compiled in Linux using gcc. 
+
 
 conv.c is a simple 1 dimensional convolution. 
 
